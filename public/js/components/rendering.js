@@ -167,8 +167,6 @@ export default class renderer {
             currentLayer.context.textAlign = layerObject.align
             currentLayer.context.font = layerObject.font
 
-            console.log(currentLayer, layerObject)
-
             if (layerObject.maxWidth) {
                 let lines = this.measureLines(currentLayer, layerObject.maxWidth, layerObject.text);
 
