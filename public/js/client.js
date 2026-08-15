@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const scene = rendering.layers.addLayer("scene", [
             new types.image(
                 "label", 
-                "/public/img/vriska_plush.png",
+                "./public/img/vriska_plush.png",
                 true,
                 {scale: 0.5, offset: 0},
                 {scale: 0.5, offset: 0},
